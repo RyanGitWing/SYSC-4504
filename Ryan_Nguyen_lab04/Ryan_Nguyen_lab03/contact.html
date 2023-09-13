@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Xbox Fan page</title>
+        <link rel="icon" href="images/Microsoft_logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Microsoft Xbox</h1>
+            <h2>by: Ryan Nguyen</h2>
+            <h3>10-02-2023</h3>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home page</a></li>
+                <li><a href="./catalog.html">Catalog</a></li>
+                <li><a href="https://www.xbox.com/en-CA/consoles" target="_blank">Company website</a></li>
+                <li><a class="active" href="#">Contact us</a></li>
+                <li><a href="./escape_js.html">Escape Room</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="info">
+                <form method="post" action="https://ramisabouni.com/sysc4504/Lab03_process.php">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <p>
+                            <label>Enter your email address:</label>
+                            <input type="email" name="email_address">
+                        </p>
+                        <p>
+                            <label>Choose your Province:</label>
+                            <select name="province">
+                                <option>ON</option>
+                                <option>QC</option>
+                                <option>NL</option>
+                                <option>PE</option>
+                                <option>NS</option>
+                                <option>NB</option>
+                                <option>MB</option>
+                                <option>SK</option>
+                                <option>AB</option>
+                                <option>BC</option>
+                                <option>YT</option>
+                                <option>NT</option>
+                                <option>NU</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Reason for contacting us</label><br>
+                            <input type="radio" name="reason" value="Billing">Billing<br>
+                            <input type="radio" name="reason" value="General Enquiry">General Enquiry<br>
+                            <input type="radio" name="reason" value="Technical Issue">Technical Issue<br>
+                            <input type="radio" name="reason" value="Track Shipment">Track Shipment<br>
+                            <input type="radio" name="reason" value="Other">Other<br>
+                        </p>
+                        <p>
+                            <textarea name="question"></textarea>
+                        </p>
+                            <input type="submit">
+                    </fieldset>
+                </form>
+            </div>
+
+       </main>
+
+        <hr>
+        <footer>
+            <div id="copy">
+                <p>
+                    Copyright &copy; Ryan Nguyen - Carleton University <a href="#">ryannguyen3@cmail.Carleton.ca</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

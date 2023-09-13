@@ -1,0 +1,4 @@
+I have exported the database just as instructed, however, I have a seperate file that contains all the queries made
+to initialize the database called sqlScript.sql.
+
+Please refer to that file, if looking at how the database was initialized.
